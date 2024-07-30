@@ -1,1 +1,5 @@
+#To install gobuster.
+
+sudo apt install gobuster
+
 gobuster -u http://fakebank.com -w wordlist.txt dir
