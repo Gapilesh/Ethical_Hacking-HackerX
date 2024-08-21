@@ -1,1 +1,3 @@
+#Steganography - Hiding secret messages in windows.
 
+#Requirements - An Image (img.jpg), A text file (Text.txt), Command Line
