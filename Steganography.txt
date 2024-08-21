@@ -1,7 +1,7 @@
-#Steganography - Hiding secret messages in windows.
-
-#Requirements - An Image (img.jpg), A text file (Text.txt), Command Line
-
+# Steganography - Hiding secret messages in windows.
+# Requirements - An Image (img.jpg), A text file (Text.txt), Command Line
 # In the cmd enter this code.
 
 copy /b "img.jpg" + "Text.txt" 
+
+# The message in the text file will be at the bottom if we open the image in a text editor.
