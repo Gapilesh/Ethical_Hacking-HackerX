@@ -1,1 +1,37 @@
+# In linux Command line
 
+# Check the current directory
+pwd
+
+# Create a new Directory
+mkdir my_script_demo
+
+# Navigate to that directory
+cd my_script_demo
+
+# Create a bash script file using Nano editor
+nano demo_script.sh
+
+# Bash script in the nano editor below.{
+#!/bin/bash
+
+# Create a new directory
+mkdir my_files
+
+# Create new file in the new directory
+touch my_files/sample.txt
+
+# Write some text into that file
+echo "Hello, this is a sample file and messge that is only just created using command line terminal in Linu" > my_files/sample.txt
+}
+
+# Display the content of the file
+cat my_files/sample.txt
+
+# Save it in the nano editor  "'ctrl+x' and then press 'y' and then 'Enter'"
+
+# In the Linux Terminal, make the code executable
+chmod +x demoscript.sh
+
+# Run the bash script
+./demo_script.sh
